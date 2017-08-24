@@ -1,10 +1,10 @@
-package com.geoloc.integration;
+package com.geoloc.rest;
 
+import com.geoloc.service.LocationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.geo.GeoJsonPoint;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
-import com.geoloc.service.LocationService;
 
 /**
  * REST service used to store geo location
