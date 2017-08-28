@@ -22,5 +22,4 @@ public class LocationResource {
         locationService.storeLocation(new GeoJsonPoint(latitude, longitude));
     }
 
-
 }

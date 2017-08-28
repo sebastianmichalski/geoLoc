@@ -16,11 +16,15 @@ import java.util.Queue;
  */
 @Service
 public class LocationServiceImpl implements LocationService {
+
     public static final long BULK_SIZE = 10;
     private Queue<GeoJson> geoLocations = new LinkedList<>();
+    private LocationRepository locationRepository;
 
     @Autowired
-    private LocationRepository locationRepository;
+    public LocationServiceImpl(LocationRepository locationRepository) {
+        this.locationRepository = locationRepository;
+    }
 
     /**
      * Stores bulk of geo locations
