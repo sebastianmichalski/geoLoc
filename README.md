@@ -14,7 +14,7 @@ Technologies used during development:
 
 Prerequisites:
 * MongoDB downloaded, installed, process mongod started: https://www.mongodb.com/
-* Java 8 JDK installed, evirnoment variable are set up: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+* Java 8 JDK installed, environment variable are set up: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 
 ## Usage
 
